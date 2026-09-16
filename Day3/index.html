@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sondos Ahmed's personal portfolio showcasing her front-end web development skills, projects, courses, and learning journey."
+    />
+    <link
+      rel="icon"
+      href="assets/images/WhatsApp Image 2025-12-23 at 8.51.05 PM.jpeg"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span><strong>Sondos Ahmed's portfolio</strong></span>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#contact" target="_blank">contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>Sondos Ahmed | Web Designer</h1>
+        <h2>About</h2>
+        <p>
+          I’m a fourth-year Computer Science and Statistics student at Helwan
+          University, currently focusing on Front-End Development and building
+          my skills through continuous learning and practice.
+        </p>
+        <img
+          src="assets/images/WhatsApp Image 2026-08-26 at 1.09.18 PM.jpeg"
+          alt="Sondos Ahmed's Picture"
+          width="300"
+        />
+      </section>
+      <hr />
+      <section id="skills">
+        <h2>Skills</h2>
+        <p>
+          <mark>
+            <em> <strong>Skills</strong></em></mark
+          >
+        </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>Git/GitHub</li>
+          <li>Graphic Design</li>
+        </ul>
+        <p>
+          <mark>
+            <em> <strong>My Learning Journey</strong></em></mark
+          >
+        </p>
+        <ol type="1" start="1">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+        </ol>
+      </section>
+      <hr />
+      <table border="1">
+        <caption>
+          <strong>My Courses</strong>
+        </caption>
+        <thead align="center">
+          <tr>
+            <th width="150">Course Name</th>
+            <th width="150">Period</th>
+            <th width="150">Status</th>
+          </tr>
+        </thead>
+        <tbody align="center">
+          <tr>
+            <td>NTI</td>
+            <td>One Month</td>
+            <td>Finished</td>
+          </tr>
+          <tr>
+            <td>ITI</td>
+            <td>One Month</td>
+            <td>Currently Attending</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total Courses:</td>
+            <td align="center" colspan="2">2</td>
+          </tr>
+        </tfoot>
+      </table>
+      <section>
+        <h2>Gallery</h2>
+        <figure>
+          <img src="assets/images/NTI.png" alt="NTI Certificate" width="300" />
+          <figcaption>NTI Certificate</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/images/IEEE.jpeg"
+            alt="IEEE Certificate"
+            width="300"
+          />
+          <figcaption>IEEE Certificate</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/images/HUMA.jpeg"
+            alt="Huma Certificate"
+            width="300"
+          />
+          <figcaption>Huma Certificate</figcaption>
+        </figure>
+      </section>
+      <hr />
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <table>
+            <tr>
+              <td><label for="name">Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  required
+                  placeholder="Enter Your Name"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="Enter Your Email"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="tel">Telephone:</label></td>
+              <td>
+                <input
+                  type="tel"
+                  name="tel"
+                  id="tel"
+                  required
+                  placeholder="Enter Your Phone"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="date">Date:</label></td>
+              <td><input type="date" name="date" id="date" /></td>
+            </tr>
+          </table>
+          <br />
+          <label for="">Preferred Contact Method:</label>
+          <input type="radio" name="Pref" id="femail" />
+          <label for="femail">Email</label>
+          <input type="radio" name="Pref" id="phone" />
+          <label for="phone">Phone</label><br /><br />
+          <label for="">Confirmation:</label>
+          <input type="checkbox" name="conf" id="conf" />
+          <label for="conf">YES</label><br /><br />
+          <label for="topic">Topic:</label>
+          <select name="topic" id="topic">
+            <option value="1">Topic1</option>
+            <option value="2">Topic2</option></select
+          ><br /><br />
+          <label for="txt">Message</label><br />
+          <textarea name="message" id="txt" rows="3" cols="40"></textarea
+          ><br /><br />
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+      <hr />
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>what tech you preferred?</summary>
+          <p>java and css</p>
+        </details>
+        <details>
+          <summary>What are you currently learning?</summary>
+          <p>java and React</p>
+        </details>
+        <br />
+        <video
+          src="assets/videos/Screen Recording 2026-09-16 152250.mp4"
+          controls
+          autoplay
+          loop
+          width="200"
+        ></video>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <address>
+        Email: <a href="mailto:cjioklp@gmail.com">cjioklp@gmail.com</a>
+      </address>
+      <span><a href="www.linkedin.com/in/sondos-ahmed20">Linkedin</a></span
+      >&nbsp; <span><a href="https://github.com/sondos-ahmed2">GitHub</a></span
+      >&nbsp;
+      <span><a href="telto:01069167256">Phone Number</a></span>
+      <p>&copy; All rights deserved.</p>
+    </footer>
+  </body>
+</html>
