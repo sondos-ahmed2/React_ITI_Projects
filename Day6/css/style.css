@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #ffe4ef;
+  --secondary-color: #f39eb6;
+  --text-color: #ca6180;
+  --light-color: #fffdcb;
+}
+* {
+  color: var(--secondary-color);
+}
+body {
+  background-color: var(--primary-color);
+}
+#about > h1 {
+  --local-color: #ba5974;
+  color: var(--local-color);
+}
+#about img {
+  max-width: 250px;
+  min-height: 200px;
+  cursor: not-allowed;
+}
+header nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.header-logo {
+  color: rgb(128, 30, 143) !important;
+}
+.portfolio-head {
+  height: 5%;
+  text-align: center;
+}
+h2 {
+  color: var(--text-color);
+}
+.btn {
+  background-color: var(--light-color);
+  color: var(--text-color);
+}
+.btn:hover {
+  background-color: var(--text-color);
+  color: var(--light-color);
+}
+.cursor-shape {
+  cursor: pointer;
+}
+mark {
+  background-color: var(--light-color);
+}
+#skills ul {
+  cursor: grab;
+}
+.conf-link {
+  text-decoration: none;
+}
+/*used (!important) to override on the inline style*/
+.main-box {
+  width: fit-content;
+  height: 150px;
+  overflow: scroll;
+  background-color: var(--light-color);
+  color: var(--text-color);
+  text-align: center;
+  font-size: 1rem;
+}
+footer {
+  background-image: url(../assets/images/WhatsApp\ Image\ 2025-11-03\ at\ 19.23.57_eee15a43.jpg);
+  width: 100vw;
+  height: 12vh;
+  text-align: center;
+}
+#portfolio-foot,
+.portfolio-head {
+  background: url(../assets/images/WhatsApp\ Image\ 2026-09-21\ at\ 3.39.17\ AM.jpeg)
+    no-repeat fixed bottom right / cover;
+}
